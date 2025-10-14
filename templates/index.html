@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Home - EduRural{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <h2>Welcome to EduRural</h2>
+  <p>Empowering rural students with free and simple digital learning resources.</p>
+  <button onclick="window.location.href='{{ url_for('courses') }}'">Get Started</button>
+</section>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - EduRural{% endblock %}
+
+{% block content %}
+<section class="dashboard">
+  <h2>Welcome, {{ current_user.username }}!</h2>
+  <p>Your enrolled courses:</p>
+  <div class="course-list">
+    {% if courses %}
+      {% for course in courses %}
+        <div class="course">
+          <h4>{{ course.name }}</h4>
+          <p>{{ course.description }}</p>
+        </div>
+      {% endfor %}
+    {% else %}
+      <p>You have not enrolled in any courses yet. Go to <a href="{{ url_for('courses') }}">Courses</a> to enroll!</p>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

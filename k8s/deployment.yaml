@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: edurural-deployment
+  labels:
+    app: edurural
+spec:
+  replicas: 3   # you can scale this as needed
+  selector:
+    matchLabels:
+      app: edurural
+  template:
+    metadata:
+      labels:
+        app: edurural
+    spec:
+      containers:
+      - name: edurural
+        image: kishore1409/edurural:latest   # replace with your Docker Hub image
+        ports:
+        - containerPort: 5000
+        env:
+        - name: FLASK_APP
+          value: "app.py"
+        - name: FLASK_RUN_HOST
+          value: "0.0.0.0"

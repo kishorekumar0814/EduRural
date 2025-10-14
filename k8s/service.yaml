@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: edurural-service
+spec:
+  selector:
+    app: edurural
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 5000
+  type: LoadBalancer   # or NodePort if you’re using local cluster (like Minikube)

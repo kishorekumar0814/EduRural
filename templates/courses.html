@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Courses - EduRural{% endblock %}
+
+{% block content %}
+<section class="courses">
+  <h3>Available Courses</h3>
+  <div class="course-list">
+    {% for course in courses %}
+      <div class="course">
+        <h4>{{ course.name }}</h4>
+        <p>{{ course.description }}</p>
+        {% if course.id in enrolled %}
+          <button disabled>Enrolled</button>
+        {% else %}
+          <a href="{{ url_for('enroll', course_id=course.id) }}"><button>Enroll</button></a>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}
