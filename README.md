@@ -150,7 +150,8 @@ http://<EC2-PUBLIC-IP>:5000/
 
 ## 📸 Architecture Diagram  
 
-![EduRural Architecture](A_flowchart_diagram_in_a_flat_design_style_illustr.png)
+![EduRural Architecture]<img width="817" height="262" alt="image" src="https://github.com/user-attachments/assets/88aacd44-05e6-4089-b6c9-bcd3de0dda22" />
+
 
 ---
 
