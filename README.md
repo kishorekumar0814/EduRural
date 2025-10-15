@@ -181,5 +181,5 @@ http://<EC2-PUBLIC-IP>:5000/
 
 ## 💚 License  
 
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** – see the [MIT LICENSE](https://github.com/kishorekumar0814/EduRural/blob/main/MIT%20LICENSE) file for details.
 
