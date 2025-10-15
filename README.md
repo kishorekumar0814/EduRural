@@ -5,6 +5,11 @@ It provides an easy-to-use interface for interactive courses such as **Mathemati
 
 ---
 
+<img width="940" height="346" alt="image" src="https://github.com/user-attachments/assets/36c4e453-2f02-49c3-bb50-5851087a1c64" />
+
+
+---
+
 ## 🚀 Project Overview  
 
 This project demonstrates a **complete cloud deployment pipeline** for a Flask web application using **Docker** and **Kubernetes** on **AWS EC2**.  
@@ -150,8 +155,16 @@ http://<EC2-PUBLIC-IP>:5000/
 
 ## 📸 Architecture Diagram  
 
-![EduRural Architecture]<img width="817" height="262" alt="image" src="https://github.com/user-attachments/assets/88aacd44-05e6-4089-b6c9-bcd3de0dda22" />
+<img width="817" height="262" alt="image" src="https://github.com/user-attachments/assets/88aacd44-05e6-4089-b6c9-bcd3de0dda22" />
 
+
+---
+
+
+## 📄 Project Documentation
+
+
+[EduRural Documentation.pdf](https://github.com/user-attachments/files/22933435/Day.25.-.AWS.pdf)
 
 ---
 
@@ -160,9 +173,9 @@ http://<EC2-PUBLIC-IP>:5000/
 **Kishore Kumar S**  
 🎓 M.Tech in Computer Science & Engineering  
 📍 Vellore Institute of Technology  
-💼 Aspiring Machine Learning & Cloud Engineer  
+💼 Aspiring Software/Python Developer, Machine Learning & Cloud Engineer  
 📧 Email: kishorekumarofficial1409@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/kishorekumars) | [GitHub](https://github.com/kishore1409)  
+🔗 [LinkedIn](https://www.linkedin.com/in/kishorekumar1409/) | [GitHub](https://github.com/kishorekumar0814)  
 
 ---
 
